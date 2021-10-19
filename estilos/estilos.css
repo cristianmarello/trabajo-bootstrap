@@ -1,0 +1,156 @@
+body {
+  background: #383838;
+}
+
+.navbar {
+  padding-top: 0px;
+  margin-top: 0;
+}
+
+.navbar-collapse {
+  margin-right: 100px;
+  justify-content: end;
+  color: white;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: gray;
+}
+
+img,
+svg {
+  vertical-align: middle;
+  width: 200px;
+  margin: 20px;
+}
+
+.w-100 {
+  width: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background: rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+}
+
+.containertitulo {
+  position: absolute;
+  left: 40px;
+  top: 180px;
+  color: white;
+  font-size: 65px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.containertitulo h3 {
+  font-size: 65px;
+}
+
+.containertitulo p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.containertitulo span {
+  font-weight: bold;
+}
+
+.containerservicios {
+  background: black;
+  height: 550px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(41, 40, 40, 1) 99%
+  );
+  color: white;
+  text-align: center;
+}
+
+.containerservicios h3 {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.containerservicios p {
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.imagenes p {
+  color: white;
+}
+
+.containerimagenes {
+  display: flex;
+  justify-content: center;
+}
+
+.containerquienessomos h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.containerquienessomos {
+  background: black;
+  height: 500px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(41, 40, 40, 1) 99%
+  );
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: none;
+}
+
+
+#contacto{
+ width: 400px;
+ margin-left: 10%;
+ display: flex;
+ flex-direction: column;
+ float: left;
+}
+
+.cosas{
+    position: absolute;
+    
+    width: 400px;
+    height: 400px;
+    float: right;
+    justify-content: end;
+    left: 50%;
+    margin-top: 30px;
+}
+
+.mapa{
+    width: 400px;
+    height: 300px;
+    margin-top: 35px;
+}
